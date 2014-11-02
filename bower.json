@@ -1,0 +1,21 @@
+{
+  "name": "core-input-with-content",
+  "version": "1.0.0",
+  "authors": [
+    "Bernd Wessels"
+  ],
+  "description": "A core input with the ability to show additional content before and after the input.",
+  "keywords": [
+    "core",
+    "input",
+    "content",
+    "polymer",
+    "web-components"
+  ],
+  "homepage": "https://github.com/berndwessels/paper-select",
+  "main": "core-input-with-content.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "platform": "Polymer/platform#master"
+  }
+}

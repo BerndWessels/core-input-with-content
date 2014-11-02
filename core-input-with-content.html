@@ -1,0 +1,53 @@
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE
+The complete set of authors may be found at http://polymer.github.io/AUTHORS
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS
+-->
+
+<!--
+/**
+ * core-input-with-content extends the core-input by adding additional content
+ * before and after the input.
+ *
+ * Example:
+ *
+ *     <core-input-with-content>
+ *       <span start>Text before the input.</span>
+ *       <span end>Text after the input.</span>
+ *     </core-input-with-content>
+ *
+ * See core-input for more information.
+ *
+ * @group Polymer Core Elements
+ * @element core-input
+ * @homepage github.io
+ */
+-->
+<link href="../polymer/polymer.html" rel="import">
+<link href="../core-input/core-input.html" rel="import">
+
+<polymer-element name="core-input-with-content" extends="core-input">
+
+    <template>
+
+        <div id="content" layout horizontal wrap center>
+            <content select="[start]"></content>
+            <div id="inputFlex" flex>
+                <shadow></shadow>
+            </div>
+            <content select="[end]"></content>
+        </div>
+
+    </template>
+
+    <script>
+
+        Polymer('core-input-with-content', {
+        });
+
+    </script>
+
+</polymer-element>

@@ -1,0 +1,2 @@
+core-input-with-content
+=======================
