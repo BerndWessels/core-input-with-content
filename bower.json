@@ -16,6 +16,7 @@
   "main": "core-input-with-content.html",
   "dependencies": {
     "polymer": "Polymer/polymer#master",
+    "webcomponentsjs": "Polymer/webcomponentsjs#master",
     "platform": "Polymer/platform#master"
   }
 }
