@@ -17,6 +17,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#master",
     "webcomponentsjs": "Polymer/webcomponentsjs#master",
-    "platform": "Polymer/platform#master"
+    "platform": "Polymer/platform#master",
+    "core-input": "Polymer/core-input#master"
   }
 }
